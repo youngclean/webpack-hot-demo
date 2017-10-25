@@ -12,7 +12,7 @@ const render = Component => {
 render(App);
 
 // Webpack Hot Module Replacement API
-// 可加可不加
+// 一定要加
 if (module.hot) {
   module.hot.accept(err => {
     if (err) {
