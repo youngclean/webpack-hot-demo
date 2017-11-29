@@ -21,7 +21,7 @@ module.exports = {
     open: true,
     contentBase: path.resolve(__dirname, "public"),
     publicPath: "/assets/",
-    port: 6666,
+    port: 3000,
   },
   devtool: 'source-map',
   module: {
